@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400,700&display=swap");
+
+$color-green: #678c89;
+$color-darkgreen: #336666;
+$color-orange: #d35e0f;
+$color-white: #fff;
+$color-offwhite: #fcfcfc;
+$color-darkgrey: #1f1f1f;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1.4;
+    background-color: $color-offwhite;
+    color: $color-darkgrey;
+    font-weight: 400;
+}
+
+.o-container {
+    max-width: 50rem;
+    margin: 0 auto;
+    border: 1px solid $color-green;
+}
+
+.c-todoItem {
+    list-style-type: none;
+    padding: .625rem 1rem;
+    border-top: 1px solid $color-green;
+
+    input {
+        margin-right: 1rem;
+    }
+}
+
+.c-delete {
+    background: $color-orange;
+    color: #fff;
+    border: 1px solid $color-orange;
+    padding: .1875rem .375rem;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+    outline: none;
+    font-weight: 700;
+}
+
+.o-formContainer {
+    display: flex;
+    width: 100%;
+}
+
+.c-inputText {
+    flex: 8;
+    font-size: .875rem;
+    padding: .375rem 1rem;
+    background: rgba($color-green, 0.65);
+    border: none;
+    color: #fff;
+    outline: none;
+
+    &::placeholder {
+        color: $color-white;
+        opacity: 0.8;
+    }
+}
+
+.c-inputSubmit {
+    flex: 2;
+    border: none;
+    background: $color-darkgreen;
+    color: $color-white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    outline: none;
+    padding: 0 1rem;
+}
