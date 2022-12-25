@@ -4,7 +4,7 @@ Deze app is gemaakt met React en is bedoeld om een lijst te maken van taken die 
 ## Installeren
 Om de app te installeren, volg je deze stappen:
 
-1. Clone de repository naar je lokale machine met git clone https://github.com/<your-username>/todo-app.git.
+1. Clone de repository naar je lokale machine met git clone https://github.com/mjoetoe/React-todo-app.git 
 2. Ga naar de app map met cd todo-app.
 3. Installeer de dependencies met npm install.
 4. Start de app met npm start.
